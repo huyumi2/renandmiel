@@ -204,9 +204,20 @@
   font:700 .58rem 'IBM Plex Mono',monospace;letter-spacing:.08em;
 }
 
+
+.npc-section{margin-top:18px;border-top:1px solid #2b4b5e;padding-top:18px}
+.npc-section-title{margin:0 0 12px;color:#91b7c7;font:700 .67rem 'IBM Plex Mono',monospace;letter-spacing:.12em}
+.npc-list{display:grid;gap:12px}
+.npc-card{border:1px solid #2b4b5e;background:#09151f;padding:18px}
+.npc-card h5{margin:0 0 11px;font-size:1.08rem;color:#e7f0f3}
+.npc-badge{display:inline-block;margin-left:7px;padding:3px 7px;border:1px solid #486b7e;color:#9eb6c2;background:#0d202b;font:600 .58rem 'IBM Plex Mono',monospace;vertical-align:middle}
+.npc-card p{margin:0;color:#a9bbc3;line-height:1.85;font-size:.88rem;word-break:keep-all}
+.npc-card p+p{margin-top:7px}
+.npc-card b{color:#dce8ed;font-weight:600}
+
 </style></head><body><div class="page">
 <header class="top"><div class="brand"><div class="logo">NO.47</div><div><h1>제47 이종공존연구소</h1><p>INSTITUTE FOR INTERSPECIES COEXISTENCE NO.47</p></div></div><div class="meta"><div class="k">DOCUMENT</div><div>IIC-47/FACILITY</div><div class="k">CLASS</div><div>INTERNAL ACCESS</div><div class="k">SYSTEM</div><div>ROOM MONITOR v4.7</div></div></header>
-<section class="band"><div><h2>연구소 내부 시설도 <span class="version-chip">FACILITY GUIDE v8</span></h2><p>중앙에는 의무실·연구실·구조실이 있으며, 각 분류 개체실이 그 주변을 둘러싸고 있습니다.</p><a class="guide-jump" href="#facility-guide">시설 안내 05–08 ↓</a></div><div class="online">FACILITY ONLINE</div></section>
+<section class="band"><div><h2>연구소 내부 시설도 <span class="version-chip">FACILITY GUIDE v9</span></h2><p>중앙에는 의무실·연구실·구조실이 있으며, 각 분류 개체실이 그 주변을 둘러싸고 있습니다.</p><a class="guide-jump" href="#facility-guide">시설 안내 05–08 ↓</a></div><div class="online">FACILITY ONLINE</div></section>
 <section class="shell"><div class="maphead"><strong>LEVEL 01 · CONTROLLED RESIDENTIAL / RESEARCH AREA</strong><span>SELECT ROOM</span></div><div class="stage"><div class="floor">
 <button class="room g47" data-room="g47"><span class="dot"></span><span class="code">G47</span><span class="rname">신격형 개체실 · 이그나</span></button>
 <button class="room a1" data-room="a47-01"><span class="dot"></span><span class="code">A47-01</span><span class="rname">동식물형 개체실 · 로키</span></button>
@@ -222,7 +233,7 @@
 <section class="facility-guide" id="facility-guide">
   <div class="guide-header">
     <div>
-      <div class="micro">IIC-47 · FACILITY INFORMATION ARCHIVE · VERSION 8</div>
+      <div class="micro">IIC-47 · FACILITY INFORMATION ARCHIVE · VERSION 9</div>
       <h2>제47 이종공존연구소 시설 안내</h2>
       <p>연구소 내 주요 연구·생태·거주·생활 시설에 대한 공개 안내 자료입니다.</p>
     </div>
@@ -343,13 +354,13 @@
   </article>
 </section>
 
-<footer class="footer"><span>IIC-47 · FACILITY MANAGEMENT INTERFACE · v8</span><span>AUTHORIZED PERSONNEL ONLY</span></footer></div>
+<footer class="footer"><span>IIC-47 · FACILITY MANAGEMENT INTERFACE · v9</span><span>AUTHORIZED PERSONNEL ONLY</span></footer></div>
 
 <section class="overlay" id="room-g47"><div class="detail"><div class="detailtop"><div class="id"><div class="badge">G47</div><div><h3>신격형 개체실</h3><p>GOD CLASS RESIDENCE</p></div></div><button class="back">시설도로 돌아가기</button></div><div class="content"><div class="profile"><div class="portrait"><img src="images/g47-ignar.jpg" alt="이그나"></div><div class="panel"><div class="class">SUBJECT RECORD · G47</div><h4>이그나</h4><div class="row"><b>CLASS</b><span>G47 · GOD / 신격형</span></div><div class="row"><b>ROOM</b><span>G47 전용 개체실</span></div><div class="row"><b>NAME</b><span>이그나</span></div><div class="row"><b>STATUS</b><span>연구소 거주 개체</span></div><div class="note">세부 설정 및 연구 기록을 이후 추가할 수 있도록 프로필 영역을 비워 두었습니다.</div></div></div></div></div></section>
-<section class="overlay" id="room-a47-01"><div class="detail"><div class="detailtop"><div class="id"><div class="badge">A47-01</div><div><h3>동식물형 개체실</h3><p>ANIMA CLASS · ROOM 01</p></div></div><button class="back">시설도로 돌아가기</button></div><div class="content"><div class="gallery"><figure><img src="images/a47-01-female.png" alt="A47-01 여성형"><figcaption>FORM · FEMALE</figcaption></figure><figure><img src="images/a47-01-male.png" alt="A47-01 남성형"><figcaption>FORM · MALE</figcaption></figure></div><div class="panel" style="margin-top:14px"><div class="class">SUBJECT RECORD · A47-01</div><h4>로키</h4><div class="row"><b>CLASS</b><span>A47 · ANIMA / 동식물형</span></div><div class="row"><b>NAME</b><span>로키</span></div><div class="row"><b>FORM</b><span>동일 개체 · 남성형 / 여성형</span></div></div></div></div></section>
+<section class="overlay" id="room-a47-01"><div class="detail"><div class="detailtop"><div class="id"><div class="badge">A47-01</div><div><h3>동식물형 개체실</h3><p>ANIMA CLASS · ROOM 01</p></div></div><button class="back">시설도로 돌아가기</button></div><div class="content"><div class="profile"><div class="portrait"><img src="images/a47-01-male.png" alt="로키"></div><div class="panel"><div class="class">SUBJECT RECORD · A47-01</div><h4>로키</h4><div class="row"><b>CLASS</b><span>A47 · ANIMA / 동식물형</span></div><div class="row"><b>NAME</b><span>로키</span></div><div class="row"><b>FORM</b><span>남성형</span></div></div></div></div></div></section>
 <section class="overlay" id="room-a47-02"><div class="detail"><div class="detailtop"><div class="id"><div class="badge">A47-02</div><div><h3>동식물형 개체실</h3><p>ANIMA CLASS · ROOM 02</p></div></div><button class="back">시설도로 돌아가기</button></div><div class="content"><div class="gallery"><figure><img src="images/a47-02-male.jpg" alt="A47-02 남성형"><figcaption>FORM · MALE</figcaption></figure><figure><img src="images/a47-02-female.jpg" alt="A47-02 여성형"><figcaption>FORM · FEMALE</figcaption></figure></div><div class="panel" style="margin-top:14px"><div class="class">SUBJECT RECORD · A47-02</div><h4>이름 미정</h4><div class="row"><b>CLASS</b><span>A47 · ANIMA / 동식물형</span></div><div class="row"><b>FORM</b><span>동일 개체 · 복수 형태 기록</span></div></div></div></div></section>
 <section class="overlay" id="room-c47"><div class="detail"><div class="detailtop"><div class="id"><div class="badge">C47</div><div><h3>조형형 개체실</h3><p>CONSTRUCT CLASS RESIDENCE</p></div></div><button class="back">시설도로 돌아가기</button></div><div class="content"><div class="profile"><div class="portrait"><img src="images/c47.png" alt="C47 개체"></div><div class="panel"><div class="class">SUBJECT RECORD · C47</div><h4>루옌 <span style="font-size:.55em;color:#8fa7b2;font-weight:500">(陆砚 · Lù Yàn)</span></h4><div class="row"><b>CLASS</b><span>C47 · CONSTRUCT / 조형형</span></div><div class="row"><b>ROOM</b><span>C47 전용 개체실</span></div><div class="row"><b>NAME</b><span>루옌 (陆砚 · Lù Yàn)</span></div></div></div></div></div></section>
-<section class="overlay" id="room-medical"><div class="detail"><div class="detailtop"><div class="id"><div class="badge">MED</div><div><h3>의무실</h3><p>MEDICAL BAY</p></div></div><button class="back">시설도로 돌아가기</button></div><div class="content"><div class="utility"><img src="images/medical-doctor.jpg" alt="의무실 의사"><div class="panel"><div class="class">FACILITY PERSONNEL</div><h4>의무실</h4><div class="row"><b>AREA</b><span>MEDICAL BAY</span></div><div class="row"><b>ROLE</b><span>거주 개체 및 연구 인력 진료 구역</span></div><div class="note">현재 화면에는 요청한 의사 이미지 1장만 사용했습니다.</div></div></div></div></div></section>
+<section class="overlay" id="room-medical"><div class="detail"><div class="detailtop"><div class="id"><div class="badge">MED</div><div><h3>의무실</h3><p>MEDICAL BAY</p></div></div><button class="back">시설도로 돌아가기</button></div><div class="content"><div class="utility"><img src="images/medical-doctor.jpg" alt="의무실 기록 이미지"><div class="panel"><div class="class">FACILITY PERSONNEL</div><h4>의무실</h4><div class="row"><b>AREA</b><span>MEDICAL BAY</span></div><div class="row"><b>ROLE</b><span>거주 개체 및 연구 인력 진료 구역</span></div><div class="npc-section"><div class="npc-section-title">ASSIGNED NPC</div><div class="npc-list"><div class="npc-card"><h5>율리안 자이페르트 <span class="npc-badge">(NPC입니다)</span></h5><p><b>직업</b> · 의사</p><p><b>담당</b> · 거주자 진료, 처방, 진정제 사용 승인 권한 보유</p><p><b>성격</b> · 느긋하고 능글맞지만 진단은 정확하다. 위험할 때는 웃음을 거두고 단호해진다.</p><p><b>말투</b> · “자, 숨 한번 크게 쉬어 봐요” 같은 진료실 말투가 습관이다.</p><p><b>역할</b> · 위기 장면에서 의학적 판단으로 개입하는 열쇠 인물. {{user}}를 “대원님”이라 부르며 가볍게 놀린다.</p></div></div></div></div></div></div></div></section>
 
 <section class="overlay" id="room-lab"><div class="detail">
   <div class="detailtop">
@@ -364,6 +375,38 @@
       <div class="row"><b>ROLE</b><span>인외 개체 관찰 · 기록 · 분석 · 연구</span></div>
       <div class="row"><b>ACCESS</b><span>연구 인력 전용</span></div>
       <div class="note">중앙 핵심 시설 중 하나. 개체실에서 수집된 자료와 생태·형태·특성 기록을 분석하는 연구 공간입니다.</div>
+
+      <div class="npc-section">
+        <div class="npc-section-title">ASSIGNED NPC</div>
+        <div class="npc-list">
+          <div class="npc-card">
+            <h5>엘리아스 베버 <span class="npc-badge">(NPC입니다)</span></h5>
+            <p><b>직업</b> · 연구원</p>
+            <p><b>담당</b> · 거주자 건강 관리와 변신 기록</p>
+            <p><b>성격</b> · 다정하고 느긋하지만 관찰력이 날카롭다. 커피를 달고 살고 야근이 일상이다.</p>
+            <p><b>특징</b> · “무리하지 마세요” 같은 걱정을 습관처럼 한다.</p>
+            <p><b>역할</b> · {{user}}에게 정보를 흘려주는 조력자.</p>
+          </div>
+
+          <div class="npc-card">
+            <h5>마야 켈러 <span class="npc-badge">(NPC입니다)</span></h5>
+            <p><b>직업</b> · 연구원</p>
+            <p><b>담당</b> · 변신 메커니즘, 닻 현상, 모방 능력 분석</p>
+            <p><b>성격</b> · 차분하고 냉정한 분석가. 감정 표현은 서툴지만 호기심이 폭발하면 말이 빨라진다.</p>
+            <p><b>특징</b> · 수치와 근거 중심으로 말한다.</p>
+            <p><b>역할</b> · {{user}}를 흥미로운 변수로 관찰하며 긴장감을 만드는 인물.</p>
+          </div>
+
+          <div class="npc-card">
+            <h5>노아 하르트만 <span class="npc-badge">(NPC입니다)</span></h5>
+            <p><b>직업</b> · 연구원</p>
+            <p><b>담당</b> · 거주자의 정서 안정과 생활 적응 프로그램 운영</p>
+            <p><b>성격</b> · 밝고 수다스러운 분위기 메이커. 눈치가 빠르고 끈기가 있다.</p>
+            <p><b>특징</b> · 감탄사가 많고 “있잖아요!”로 말을 시작한다.</p>
+            <p><b>역할</b> · 자연생태구역 산책 같은 일상 이벤트의 중심, 무거운 전개 뒤의 분위기 환기.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div></section>
@@ -409,6 +452,20 @@
           “이리 와 봅니다. 아, 진짜. 한 번만 안게 해주십시오.”<br>
           “쳐다보면 닳습니까? 좀 볼 수도 있지 말입니다.”<br>
           “같이 갑시다, 응? 혼자 다니지 말라는 소립니다.”
+        </div>
+
+        <div class="npc-section">
+          <div class="npc-section-title">ASSIGNED NPC</div>
+          <div class="npc-list">
+            <div class="npc-card">
+              <h5>마르쿠스 로웬 <span class="npc-badge">(NPC입니다)</span></h5>
+              <p><b>직업</b> · 보안팀 가드</p>
+              <p><b>담당</b> · 개체의 격리와 이송</p>
+              <p><b>성격</b> · 원칙주의자. 말수가 적고 표정이 없지만 냉혈한은 아니다.</p>
+              <p><b>특징</b> · 중요한 순간엔 경고를 한 번 더 해 준다.</p>
+              <p><b>역할</b> · 규정을 대표하는 인물. {{user}}가 책임을 지겠다고 하면 한 번은 물러나 준다.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
